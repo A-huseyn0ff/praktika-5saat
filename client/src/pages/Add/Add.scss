@@ -1,0 +1,29 @@
+.admin{
+    margin-bottom: 200px;
+    .filtersort{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 30px;
+    }
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 200px;
+    table{
+        border: 1px solid black;
+        tr{
+            td{
+                border: 1px solid black;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
